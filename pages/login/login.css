@@ -1,0 +1,55 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.login-card {
+  width: 20rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.bottom-card {
+  display: flex;
+  width: 20rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.carbg {
+  background: url("../../assets/carouselBg.png");
+  background-size: cover;
+  height: 590px;
+  width: 441px;
+  position: relative;
+}
+
+.carousel {
+  position: absolute;
+  height: 423px;
+  width: 241px !important;
+  top: 46.5px;
+  left: 71.5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .carbg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .login-card {
+    width: 100%;
+  }
+
+  .bottom-card {
+    width: 100%;
+  }
+}
